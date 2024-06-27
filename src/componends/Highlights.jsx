@@ -19,9 +19,9 @@ const Highlights = () => {
   return (
     <section id="highlights" className=" w-screen bg-zinc overflow-hidden h-full common-padding">
       <div className=" screen-max-width">
-        <div className="w-full md:flex justify-between items-end mb-12">
+        <div className="w-full md:flex justify-between items-end sm:items-center mb-12">
           <h1 id="title" className="section-heading">Get the Hightlights</h1>
-          <div className=" flex flex-wrap items-end gap-5">
+          <div className=" flex flex-wrap items-end gap-5 ">
             <p className="link">
               Watch the film
               <img src={watchImg} alt="watch" className="ml-2"/>
